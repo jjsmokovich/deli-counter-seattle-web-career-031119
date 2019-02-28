@@ -5,4 +5,4 @@ def line(customer)
   if line == 0 
     puts "The line is currently empty."
   else
-    
+    customer.each_with_index
