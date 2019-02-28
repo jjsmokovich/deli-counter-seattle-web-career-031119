@@ -8,6 +8,7 @@ def line(cust)
     cust.each.with_index(1) do |name, index|
       deli.push("#{index}. #{name}")
     end
+    
     puts "The line is currently: #{deli.join(" ")}"
   end
 end
